@@ -1,0 +1,42 @@
+body {
+  padding: 0;
+  margin: 0;
+  color: #666666;
+  font-family: sans-serif;
+}
+
+.booking {
+	height: 550px;
+}
+
+#calendar h2 {
+  font-weight: lighter;
+}
+
+#calendar a {
+  color: #F16465;
+  text-decoration: none;
+}
+
+#calendar table {
+  border-collapse: collapse;
+  border-color: #666666;
+  width: 100%;
+}
+
+#calendar td {
+  padding: 5px;
+}
+
+#calendar .title {
+	display: inline-block;
+	width: 170px;
+}
+
+#calendar .free {
+	background: #CEEDCE;
+}
+ 
+#calendar .ocupied {
+	background: #EBC5C5;
+}
