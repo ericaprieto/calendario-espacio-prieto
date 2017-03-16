@@ -17,7 +17,7 @@ function request(url, callback) {
   xmlhttp.send();
 }
 
-request('https://dl.dropboxusercontent.com/u/93148896/espacio_prieto_datas_ocupadas.txt', function(error, content) {
+request('https://reginaldoprieto.github.io/datas-espacio-prieto/datas.txt', function(error, content) {
   if(error) {
     console.error(error);
   } else {
