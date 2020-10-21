@@ -6,16 +6,45 @@ body {
 }
 
 .booking {
-	height: 550px;
+  height: 550px;
 }
 
 #calendar h2 {
   font-weight: lighter;
+  white-space: nowrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-#calendar a {
-  color: #F16465;
+#calendar .title {
+  margin: 0 8px;
+}
+
+#calendar button {
+  border-radius: 100%;
+  color: #f16465;
   text-decoration: none;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  width: 32px;
+  height: 32px;
+  line-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background 200ms linear;
+  font-size: 16px;
+  font-weight: bolder;
+}
+
+#calendar button span {
+  margin-top: -3px;
+}
+
+#calendar button:hover {
+  background: #f0f0f0;
 }
 
 #calendar table {
@@ -28,15 +57,10 @@ body {
   padding: 5px;
 }
 
-#calendar .title {
-	display: inline-block;
-	width: 170px;
+#calendar .free {
+  background: #ceedce;
 }
 
-#calendar .free {
-	background: #CEEDCE;
-}
- 
 #calendar .ocupied {
-	background: #EBC5C5;
+  background: #ebc5c5;
 }
